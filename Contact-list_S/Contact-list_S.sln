@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact-list_S", "Contact-list_S\Contact-list_S.csproj", "{8589E0E1-1EDF-4BCA-8958-8FECB68EF225}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A36D8383-DC17-456A-B660-4DB4F4ABFB05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8589E0E1-1EDF-4BCA-8958-8FECB68EF225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8589E0E1-1EDF-4BCA-8958-8FECB68EF225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8589E0E1-1EDF-4BCA-8958-8FECB68EF225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8589E0E1-1EDF-4BCA-8958-8FECB68EF225}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E05C6E9B-E7DD-442F-AB65-4A86700FC7AE}
+	EndGlobalSection
+EndGlobal
