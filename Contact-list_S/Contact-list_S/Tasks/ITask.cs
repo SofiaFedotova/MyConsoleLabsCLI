@@ -5,10 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Contact_list_S
-{
-    interface ICommand
+{      interface ITask
     {
-         void Do();
-         void Message();
+        void Do();
     };
 }
+

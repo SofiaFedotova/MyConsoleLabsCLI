@@ -44,14 +44,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Charge\ContactLINQ.cs" />
+    <Compile Include="Charge\ContactSerialization.cs" />
+    <Compile Include="Charge\ContactXMLDoc.cs" />
+    <Compile Include="Charge\GlobalCharging.cs" />
+    <Compile Include="Charge\IStorage.cs" />
     <Compile Include="ContactList.cs" />
-    <Compile Include="ICommand.cs" />
     <Compile Include="Contact.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\AddTask.cs" />
+    <Compile Include="Tasks\ChangeTaskcs.cs" />
+    <Compile Include="Tasks\ClearTask.cs" />
+    <Compile Include="Tasks\ExitTask.cs" />
+    <Compile Include="Tasks\HelpTask.cs" />
+    <Compile Include="Tasks\ITask.cs" />
+    <Compile Include="Tasks\NameTask.cs" />
+    <Compile Include="Tasks\OpenList.cs" />
+    <Compile Include="Tasks\PrintAllTasks.cs" />
+    <Compile Include="Tasks\SaveTask.cs" />
+    <Compile Include="Tasks\SearchTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="File.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
